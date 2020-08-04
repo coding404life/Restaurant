@@ -11,45 +11,297 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- main stylesheet -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Luxury</title>
+    <title>LAMBDA</title>
 </head>
     <body>
 
         <!-- start header -->
-        <header>
+        <header class='pb-5'>
             <!-- navbar -->
-            <nav class="navbar navbar-expand-sm navbar-light">
+            <nav class="navbar navbar-expand-lg py-0">
                 <div class="container">
                     <!-- logo -->
-                    <a class="navbar-brand" href="#">lambda</a>
+                    <a class="navbar-brand" href="#">
+                        <img class='pt-4' src="images/logo.png" alt="logo">
+                    </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
+                      <span><i class="fas fa-bars"></i></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                      <div class="navbar-nav">
+                    <div class="collapse navbar-collapse justify-content-end align-items-start" id="navbarNavAltMarkup">
+                      <div class="navbar-nav ">
                         <a class="nav-item nav-link active" href="#">Home</a>
                         <a class="nav-item nav-link" href="#">about</a>
                         <a class="nav-item nav-link" href="#">Igredients</a>
                         <a class="nav-item nav-link" href="#">menu</a>
                         <a class="nav-item nav-link" href="#">reviews</a>
                         <a class="nav-item nav-link" href="#">Reservations</a>
-                        <a class="nav-item nav-link" href="#">icon</a>
-                        <a class="nav-item nav-link" href="#">icon</a>
-                        <a class="nav-item nav-link" href="#">icon</a>
+                        <a class="nav-item nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="nav-item nav-link" href="#"><i class="fab fa-youtube"></i></a>
+                        <a class="nav-item nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
                       </div>
                     </div>
                 </div>
               </nav>
+
+              <section id='hero-banner' class='py-5'>
+                  <div class="container">
+                      <div class="row text-center">
+                          <div class="col">
+                                <h1 class='display-3 mb-4'>the right ingredients
+                                   <br> for the right food</h1>
+                                <img class='mb-4' src="images/heroo-section-divider" alt="divider">
+                                <div class="100w"></div>
+                                <button class='btn btn-primary'>BOOK A TABLE</button>
+                                <button class='btn btn-primary'>SEE THE MENU</button>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+
         </header>
 
+        <!--start hero section -->
+        <section id="about">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-6">
+                        <h1>Just the right food</h1>
+                        <img src="images/divider.png" alt="divider">
+                        <P>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</P>
+                        <img src="images/person.png" alt="about-client">
+                    </div>
+                    <div class="col-md-6">
+                        <img class='img-fluid' src="images/dish.png" alt="dish">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- finish about section -->
 
+        <!-- start ingredients section -->
+        <section id="ingredients" class='py-5'>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <h3>Fine ingredients</h3>
+                        <img src="images/footer-divider.png" alt="divider">
+                        <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!
+                        </p>
+                        <div class="row justify-content-center">
+                            <div class="col-3">
+                                <img class='img-fluid' src="images/icon1.png" alt="icon1">
+                            </div>
+                            <div class="col-3">
+                                <img class='img-fluid' src="images/icon2.png" alt="icon1">
+                            </div>
+                            <div class="col-3">
+                                <img class='img-fluid' src="images/icon3.png" alt="icon1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- finish ingerdients section -->
 
+        <!-- start menu section -->
+        <section id="menu" class='py-5'>
+            <div class="container">
+                <div class="row">
 
+                    <div class="col-md-6">
+                        <!--menu group 1 -->
+                        <div class="menu-group">
+                            <h1>salad</h1>
+                            <img src="images/divider.png" alt="divider">
+                            <div class="menu-item">
+                                <p class='food-name'>Tzatsiki <span class="price">$3.99</span></p>
+                                <hr>
+                                <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class='food-name'>Tzatsiki <span class="price">$3.99</span></p>
+                                <hr>
+                                <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class='food-name'>Tzatsiki <span class="price">$3.99</span></p>
+                                <hr>
+                                <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                            </div>
+                        </div>
+                        <!-- menu group 2 -->
+                        <div class="menu-group">
+                            <h1>salad</h1>
+                            <img src="images/divider.png" alt="divider">
+                            <div class="menu-item">
+                                <p class='food-name'>Tzatsiki <span class="price">$3.99</span></p>
+                                <hr>
+                                <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class='food-name'>Tzatsiki <span class="price">$3.99</span></p>
+                                <hr>
+                                <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class='food-name'>Tzatsiki <span class="price">$3.99</span></p>
+                                <hr>
+                                <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="col-md-6">
+                        <!-- menu group 3 -->
+                        <div class="menu-group">
+                            <h1>salad</h1>
+                            <img src="images/divider.png" alt="divider">
+                            <div class="menu-item">
+                                <p class='food-name'>Tzatsiki <span class="price">$3.99</span></p>
+                                <hr>
+                                <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class='food-name'>Tzatsiki <span class="price">$3.99</span></p>
+                                <hr>
+                                <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class='food-name'>Tzatsiki <span class="price">$3.99</span></p>
+                                <hr>
+                                <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                            </div>
+                        </div>
+                        <!-- menu group 4 -->
+                        <div class="menu-group">
+                            <h1>salad</h1>
+                            <img src="images/divider.png" alt="divider">
+                            <div class="menu-item">
+                                <p class='food-name'>Tzatsiki <span class="price">$3.99</span></p>
+                                <hr>
+                                <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class='food-name'>Tzatsiki <span class="price">$3.99</span></p>
+                                <hr>
+                                <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                            </div>
+                            <div class="menu-item">
+                                <p class='food-name'>Tzatsiki <span class="price">$3.99</span></p>
+                                <hr>
+                                <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- end menu section -->
+
+        <!-- start testimonials  reviews-->
+
+        <section id="reviews" class='py-5 my-5'>
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-sm- 6">
+                        <h3>Guest Reviews</h3>
+                        <p class="quote">If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
+                        <p><small>- food inc, New York</small></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- end testimonials  reviews-->
+
+        <!-- start Reservations section -->
+            <section id="reservations" class= py-5>
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class='img-fluid' src="images/dish1.png" alt="food dish">
+                                </div>
+                                <div class="col-6">
+                                    <img class='img-fluid' src="images/dish2.png" alt="food dish">                                     
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 ">
+                            <h3>Just the right food</h3>
+                            <img src="images/divider.png" alt="divider">
+                            <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food.</p>
+                            <p>Delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.</p>
+
+                            <!-- form -->
+                            <form class='text-left '>
+                                <div class="form-row">
+                                  <div class="col-md-6 mb-3">
+                                    <label for="validationDefault01">First name</label>
+                                    <input type="text" class="form-control" id="validationDefault01" placeholder="your name *" required>
+                                  </div>
+                                  <div class="col-md-6 mb-3">
+                                    <label for="validationDefault02">Email</label>
+                                    <input type="email" class="form-control" id="validationDefault02" placeholder="your ymail *" required>
+                                  </div>
+                                </div>
+                                <div class="form-row">
+                                  <div class="col-md-6 mb-3">
+                                    <label for="validationDefault03">Date</label>
+                                    <input id='today' type="date" class="form-control"  min="2020-08-04" max="2030-08-26" required>
+                                  </div>
+                                  <div class="col-md-6 mb-3">
+                                    <label for="validationDefault04">Party Number</label>
+                                    <select class="form-control">
+                                        <option>Party Number</option>
+                                      </select>
+                                  </div>
+                                </div>
+                               <div class="text-center">
+                                    <button class="btn btn-primary" type="submit">Book Now</button>
+                               </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- end Reservations section -->
+        
+        <!-- start footer  -->
+        <footer class="bg-black text-white">
+            <div class="container">
+                <div class="row justify-content-between text-center py-5 ">
+                    <div class="col-sm-4">
+                        <h3>About us</h3>
+                        <img src="images/footer-divider.png" alt="footer-divider">
+                        <p>Lambda's new and expanded Chelsea location represents a truly authentic Greek patisserie, featuring breakfasts of fresh croissants and steaming bowls of café.<br> Lamda the best restaurant in town</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <h3>Opening Hours</h3>
+                        <img src="images/footer-divider.png" alt="footer-divider">
+                        <p>Mon-Thu: 7:00am-8:00pm </p>
+                        <p>Fri-Sun: 7:00am-10:00pm</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <h3>Our Location</h3>
+                        <img src="images/footer-divider.png" alt="footer-divider">
+                        <p>19th Paradise Street Sitia</p>
+                        <p>128 Meserole Avenue</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer  -->
 
         <!-- JS, Popper.js, and jQuery -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+        <!-- main script -->
+        <script src="js/script.js"></script>
     </body>
 </html>

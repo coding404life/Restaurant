@@ -1,1 +1,44 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.bg-black {
+  background-color: #191919;
+}
+
+header {
+  background-image: url(../images/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f0f0f0;
+  box-shadow: 0px 4em 10em #0e0b0b inset;
+}
+
+header nav {
+  padding-top: 2rem;
+}
+
+header nav .navbar-toggler {
+  color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+}
+
+header nav .navbar-nav a {
+  color: #f0f0f0;
+  text-transform: capitalize;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+header nav .navbar-nav a i {
+  color: #cc9900;
+}
+
+header nav .navbar-nav a:hover {
+  color: #f0f0f0;
+  background-color: rgba(31, 23, 15, 0.8);
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+  header #hero-banner h1 {
+    font-size: 2.1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
