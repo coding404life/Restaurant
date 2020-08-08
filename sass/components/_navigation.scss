@@ -1,0 +1,54 @@
+//navigation bar
+nav{
+    padding-top: 2rem;
+    z-index: 1;
+    left:0;
+    right:0;
+    .navbar-toggler{
+        color:$whiteColor;
+        border:1px solid $whiteColor;
+    }
+    .navbar-brand{
+        color:$whiteColor;
+        font-size: 1.7rem;
+        font-family: $yesevaFont;
+    }
+    .navbar-nav a{
+        color:$whiteColor;
+        text-transform: capitalize;
+        margin-left: 1rem;
+        font-weight: 500;
+        font-family: $gentiumFont;
+        i{
+            color:$yellowColor;
+        }
+        &:hover{
+            color:$whiteColor;
+            background-color:$transColor;
+            border-radius: 10px;
+        }
+        @include mediaQuery(576px, 900px){
+            &{
+                font-size: .1rem;
+            }
+        }
+    }
+    .navbar-nav .icons-bg{
+        margin-left: 0;
+        &:hover{
+            background-color: transparent;
+        }
+    }
+    @include mediaQuery(576px){
+        & .navbar-nav{
+            text-align: center;
+            background-color: $transColor;
+            border-radius:15px;
+            a{
+                margin-left: 0;
+                padding: .3rem 0;
+            }
+        }
+    }
+    
+}

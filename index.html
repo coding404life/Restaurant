@@ -9,66 +9,63 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <!--bootstrap 4.5 CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Lato&family=Yeseva+One&display=swap" rel="stylesheet">
     <!-- main stylesheet -->
     <link rel="stylesheet" href="css/style.css">
     <title>LAMBDA</title>
 </head>
     <body>
+        <!-- navbar -->
+        <nav class="navbar position-absolute navbar-expand-md py-4">
+            <div class="container">
+                <!-- logo -->
+                <a class="navbar-brand text-uppercase" href="#">lambda</a>
 
-        <!-- start header -->
-        <header class='pb-5'>
-            <!-- navbar -->
-            <nav class="navbar navbar-expand-lg py-0">
-                <div class="container">
-                    <!-- logo -->
-                    <a class="navbar-brand" href="#">
-                        <img class='pt-4' src="images/logo.png" alt="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                      <span><i class="fas fa-bars"></i></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end align-items-start" id="navbarNavAltMarkup">
-                      <div class="navbar-nav ">
-                        <a class="nav-item nav-link active" href="#">Home</a>
-                        <a class="nav-item nav-link" href="#">about</a>
-                        <a class="nav-item nav-link" href="#">Igredients</a>
-                        <a class="nav-item nav-link" href="#">menu</a>
-                        <a class="nav-item nav-link" href="#">reviews</a>
-                        <a class="nav-item nav-link" href="#">Reservations</a>
-                        <a class="nav-item nav-link" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="nav-item nav-link" href="#"><i class="fab fa-youtube"></i></a>
-                        <a class="nav-item nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
-                      </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"             data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span><i class="fas fa-bars"></i></span>        
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#hero-banner">Home</a>
+                        <a class="nav-item nav-link" href="#about">about</a>
+                        <a class="nav-item nav-link" href="#ingredients">Igredients</a>
+                        <a class="nav-item nav-link" href="#menu">menu</a>
+                        <a class="nav-item nav-link" href="#reviews">reviews</a>
+                        <a class="nav-item nav-link" href="#reservations">Reservations</a>
+                        <a class="nav-item icons-bg d-none d-lg-block nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="nav-item icons-bg d-none d-lg-block nav-link" href="#"><i class="fab fa-youtube"></i></a>
+                        <a class="nav-item icons-bg d-none d-lg-block nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
-              </nav>
+            </div>
+        </nav>
 
-              <section id='hero-banner' class='py-5'>
-                  <div class="container">
-                      <div class="row text-center">
-                          <div class="col">
-                                <h1 class='display-3 mb-4'>the right ingredients
-                                   <br> for the right food</h1>
-                                <img class='mb-4' src="images/heroo-section-divider" alt="divider">
-                                <div class="100w"></div>
-                                <button class='btn btn-primary'>BOOK A TABLE</button>
-                                <button class='btn btn-primary'>SEE THE MENU</button>
-                          </div>
-                      </div>
-                  </div>
-              </section>
-
+        <!-- start header -->
+        <header id='hero-banner'  class='pt-5'>
+            <div class="container h-100">
+                <div class="row  h-100 align-items-center text-center">
+                    <div class="col py-4">
+                        <h1 class='my-4 pt-5 display-1'>the right ingredients
+                            <br> for the right food</h1>
+                        <img class='mb-2' src="images/heroo-section-divider" alt="divider">
+                        <div class="100w"></div>
+                        <a  href="#reservations" class='btn btn-dark my-4 py-2 px-4'>BOOK A TABLE</a>
+                        <a href="#menu" class='btn btn-light mx-3 py-2 px-4'>SEE THE MENU</a>
+                    </div>
+                </div>
+            </div>
         </header>
 
         <!--start hero section -->
-        <section id="about">
+        <section id="about" >
             <div class="container">
-                <div class="row justify-content-center text-center">
+                <div class="row text-center">
                     <div class="col-md-6">
-                        <h1>Just the right food</h1>
-                        <img src="images/divider.png" alt="divider">
-                        <P>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</P>
-                        <img src="images/person.png" alt="about-client">
+                        <h3 class='pt-5'>Just the right food</h3>
+                        <img class='mt-1 mb-4 divider-width' src="images/divider.png" alt="divider">
+                        <P class='mb-sm-4'>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</P>
+                        <img class='img-fluid person ml-5' src="images/person.png" alt="about-client">
                     </div>
                     <div class="col-md-6">
                         <img class='img-fluid' src="images/dish.png" alt="dish">
@@ -262,7 +259,7 @@
                                   </div>
                                 </div>
                                <div class="text-center">
-                                    <button class="btn btn-primary" type="submit">Book Now</button>
+                                    <button class="btn btn-warning px-5" type="submit">Book Now</button>
                                </div>
                             </form>
                         </div>
@@ -277,18 +274,18 @@
                 <div class="row justify-content-between text-center py-5 ">
                     <div class="col-sm-4">
                         <h3>About us</h3>
-                        <img src="images/footer-divider.png" alt="footer-divider">
+                        <img class='img-fluid' src="images/footer-divider.png" alt="footer-divider">
                         <p>Lambda's new and expanded Chelsea location represents a truly authentic Greek patisserie, featuring breakfasts of fresh croissants and steaming bowls of café.<br> Lamda the best restaurant in town</p>
                     </div>
                     <div class="col-sm-3">
                         <h3>Opening Hours</h3>
-                        <img src="images/footer-divider.png" alt="footer-divider">
+                        <img class='img-fluid' src="images/footer-divider.png" alt="footer-divider">
                         <p>Mon-Thu: 7:00am-8:00pm </p>
                         <p>Fri-Sun: 7:00am-10:00pm</p>
                     </div>
                     <div class="col-sm-3">
                         <h3>Our Location</h3>
-                        <img src="images/footer-divider.png" alt="footer-divider">
+                        <img class='img-fluid' src="images/footer-divider.png" alt="footer-divider">
                         <p>19th Paradise Street Sitia</p>
                         <p>128 Meserole Avenue</p>
                     </div>

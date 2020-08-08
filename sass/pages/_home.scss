@@ -1,0 +1,41 @@
+//header hero banner
+header{
+    background:url(../../images/header.png) no-repeat top center;
+    background-size: cover;
+    // background-attachment: fixed;
+    color:$whiteColor;
+    height:85vh;
+    z-index: 0;
+    @include css3-prefix(box-shadow,0 9em 9em -6em #0e0b0b inset);
+   img{
+       max-width: 11rem;
+   }
+   @include mediaQuery(576px){
+       &{
+           background-position: right center;
+           height:70vh;
+       }
+   }
+}
+
+// about section
+#about{
+    background:url(../../images/about-bg.png)no-repeat center ;
+    background-size:cover;
+    padding:3.5rem 0 2rem;
+    h3{
+        font-family: $yesevaFont;
+        color: $yellowColor;
+    }
+    p{
+        color:$grayColor
+    }
+    .person{
+        max-width:11rem
+    }
+    @include mediaQuery(576px){
+        & {
+            padding:0 0 2rem;
+        }
+    }
+}   

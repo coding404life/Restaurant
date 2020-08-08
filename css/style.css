@@ -1,44 +1,173 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 300;
+  transition: all ease-in-out 250ms;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Yeseva One", cursive;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
 .bg-black {
   background-color: #191919;
 }
 
-header {
-  background-image: url(../images/header.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+.display-1 {
+  font-size: 9vmin;
+}
+
+.divider-width {
+  max-width: 13rem;
+}
+
+@media (max-width: 576px) {
+  .display-1 {
+    font-size: 8vmin;
+  }
+}
+
+.btn {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.btn-dark {
+  background-color: rgba(8, 8, 8, 0.7);
+  border: 1px solid rgba(8, 8, 8, 0.7);
+}
+
+.btn-light {
+  background-color: rgba(250, 250, 250, 0.4);
+  border: 1px solid rgba(250, 250, 250, 0.5);
   color: #f0f0f0;
-  box-shadow: 0px 4em 10em #0e0b0b inset;
 }
 
-header nav {
+.btn-warning {
+  background-color: #cc9900;
+  color: #f0f0f0;
+}
+
+@media (max-width: 576px) {
+  .btn {
+    font-size: .9rem;
+  }
+}
+
+nav {
   padding-top: 2rem;
+  z-index: 1;
+  left: 0;
+  right: 0;
 }
 
-header nav .navbar-toggler {
+nav .navbar-toggler {
   color: #f0f0f0;
   border: 1px solid #f0f0f0;
 }
 
-header nav .navbar-nav a {
+nav .navbar-brand {
+  color: #f0f0f0;
+  font-size: 1.7rem;
+  font-family: "Yeseva One", cursive;
+}
+
+nav .navbar-nav a {
   color: #f0f0f0;
   text-transform: capitalize;
   margin-left: 1rem;
   font-weight: 500;
+  font-family: "Gentium Book Basic", serif;
 }
 
-header nav .navbar-nav a i {
+nav .navbar-nav a i {
   color: #cc9900;
 }
 
-header nav .navbar-nav a:hover {
+nav .navbar-nav a:hover {
   color: #f0f0f0;
-  background-color: rgba(31, 23, 15, 0.8);
+  background-color: rgba(8, 8, 8, 0.7);
   border-radius: 10px;
 }
 
+@media (max-width: 576px) and (min-width: 900px) {
+  nav .navbar-nav a {
+    font-size: .1rem;
+  }
+}
+
+nav .navbar-nav .icons-bg {
+  margin-left: 0;
+}
+
+nav .navbar-nav .icons-bg:hover {
+  background-color: transparent;
+}
+
 @media (max-width: 576px) {
-  header #hero-banner h1 {
-    font-size: 2.1rem;
+  nav .navbar-nav {
+    text-align: center;
+    background-color: rgba(8, 8, 8, 0.7);
+    border-radius: 15px;
+  }
+  nav .navbar-nav a {
+    margin-left: 0;
+    padding: .3rem 0;
+  }
+}
+
+header {
+  background: url(../../images/header.png) no-repeat top center;
+  background-size: cover;
+  color: #f0f0f0;
+  height: 85vh;
+  z-index: 0;
+  -ms-box-shadow: 0 9em 9em -6em #0e0b0b inset;
+  -o-box-shadow: 0 9em 9em -6em #0e0b0b inset;
+  box-shadow: 0 9em 9em -6em #0e0b0b inset;
+}
+
+header img {
+  max-width: 11rem;
+}
+
+@media (max-width: 576px) {
+  header {
+    background-position: right center;
+    height: 70vh;
+  }
+}
+
+#about {
+  background: url(../../images/about-bg.png) no-repeat center;
+  background-size: cover;
+  padding: 3.5rem 0 2rem;
+}
+
+#about h3 {
+  font-family: "Yeseva One", cursive;
+  color: #cc9900;
+}
+
+#about p {
+  color: #666;
+}
+
+#about .person {
+  max-width: 11rem;
+}
+
+@media (max-width: 576px) {
+  #about {
+    padding: 0 0 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

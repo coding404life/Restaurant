@@ -1,57 +1,7 @@
-@import 'variables';
-@import 'mixins';
-@import 'button';
-//start header styling
-
-//colors reset class
-.bg-black{
-    background-color:$blackColor;
-}
-header{
-    background-image: url(../images/header.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color:$whiteColor;
-    box-shadow:0px 4em 10em #0e0b0b inset;
-  
-    nav{
-        padding-top: 2rem;
-        .navbar-toggler{
-            color:$whiteColor;
-            border:1px solid $whiteColor;
-        }
-        .navbar-brand{
-            
-        }
-        .navbar-nav{
-            a{
-                color:$whiteColor;
-                text-transform: capitalize;
-                margin-left: 1rem;
-                font-weight: 500;
-                i{
-                    color:$yellowColor;
-                }
-                &:hover{
-                    color:$whiteColor;
-                    background-color:$transColor;
-                    border-radius: 10px;
-                }
-            }
-        }
-    }
-    #hero-banner{
-        @include mediaQuery(576px) {
-            h1{
-                font-size: 2.1rem;
-            }
-        }
-    }
-}
-//finish header
-
-//start about section
-
-#about{
-    
-}
+//importing sass files
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'base/typography';
+@import 'base/button';
+@import 'components/navigation';
+@import 'pages/home';
