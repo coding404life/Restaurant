@@ -134,7 +134,7 @@ nav .navbar-nav .icons-bg:hover {
 }
 
 header {
-  background: url(../../images/header.png) no-repeat top center;
+  background: url(../images/header.png) no-repeat top center;
   background-size: cover;
   color: #f0f0f0;
   height: 85vh;
@@ -156,7 +156,7 @@ header img {
 }
 
 #about {
-  background: url(../../images/menu-bg.png) no-repeat center;
+  background: url(../images/menu-bg.png) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   padding: 3.5rem 0 2rem;
@@ -182,7 +182,7 @@ header img {
 }
 
 #ingredients {
-  background: url(../../images/section-bg.png) no-repeat center;
+  background: url(../images/section-bg.png) no-repeat center;
   background-size: cover;
   color: #f0f0f0;
   background-attachment: fixed;
@@ -194,7 +194,7 @@ header img {
 }
 
 #menu {
-  background: url(../../images/menu-bg.png) no-repeat center;
+  background: url(../images/menu-bg.png) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -244,7 +244,7 @@ header img {
 }
 
 #reviews {
-  background: url(../../images/section-bg2.png) no-repeat center;
+  background: url(../images/section-bg2.png) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   color: #dde0df;
@@ -269,7 +269,7 @@ header img {
 }
 
 #reservations {
-  background: url(../../images/menu-bg.png) no-repeat center;
+  background: url(../images/menu-bg.png) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }

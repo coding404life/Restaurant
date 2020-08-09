@@ -1,6 +1,6 @@
 //header hero banner
 header{
-    background:url(../../images/header.png) no-repeat top center;
+    background:url(../images/header.png) no-repeat top center;
     background-size: cover;
     // background-attachment: fixed;
     color:$whiteColor;
@@ -20,7 +20,7 @@ header{
 
 // about section
 #about{
-    background:url(../../images/menu-bg.png)no-repeat center ;
+    background:url(../images/menu-bg.png)no-repeat center ;
     background-size:cover;
     background-attachment: fixed;
     padding:3.5rem 0 2rem;
@@ -43,7 +43,7 @@ header{
 
 //ingredients section
 #ingredients{
-    background: url(../../images/section-bg.png)no-repeat center;
+    background: url(../images/section-bg.png)no-repeat center;
     background-size: cover;
     color:$whiteColor;
     background-attachment: fixed;
@@ -55,7 +55,7 @@ header{
 
 // menu items
 #menu{
-    background:url(../../images/menu-bg.png) no-repeat center;
+    background:url(../images/menu-bg.png) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     .menu-group{
@@ -97,7 +97,7 @@ header{
 
 //reviews section
 #reviews{
-    background:url(../../images/section-bg2.png) no-repeat center;
+    background:url(../images/section-bg2.png) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     color:#dde0df;
@@ -120,7 +120,7 @@ header{
 
 //reservations section
 #reservations{
-    background:url(../../images/menu-bg.png) no-repeat center;
+    background:url(../images/menu-bg.png) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     h3{
