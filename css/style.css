@@ -151,7 +151,7 @@ header img {
 @media (max-width: 576px) {
   header {
     background-position: right center;
-    height: 70vh;
+    height: auto;
   }
 }
 
