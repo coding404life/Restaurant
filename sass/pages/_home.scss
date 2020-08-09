@@ -20,8 +20,9 @@ header{
 
 // about section
 #about{
-    background:url(../../images/about-bg.png)no-repeat center ;
+    background:url(../../images/menu-bg.png)no-repeat center ;
     background-size:cover;
+    background-attachment: fixed;
     padding:3.5rem 0 2rem;
     h3{
         font-family: $yesevaFont;
@@ -39,3 +40,118 @@ header{
         }
     }
 }   
+
+//ingredients section
+#ingredients{
+    background: url(../../images/section-bg.png)no-repeat center;
+    background-size: cover;
+    color:$whiteColor;
+    background-attachment: fixed;
+    .ingre-box{
+        background-color: $transColor;
+        padding: 1.5rem ;
+    }
+}
+
+// menu items
+#menu{
+    background:url(../../images/menu-bg.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    .menu-group{
+        margin-bottom: 3rem;
+        h3{
+            color:$yellowColor;
+            text-transform: capitalize;
+        }
+    }
+    .menu-item{
+        text-align: left;
+        padding:.7rem .5rem;
+        margin-bottom: .5rem;
+        hr{
+            background-color:$yellowColor
+        }
+        .food-name{
+            color:$yellowColor;
+            font-family: $yesevaFont;
+        }
+        p {
+            margin-bottom: .5rem;
+        }
+    }
+    .special{
+        border:1px solid $yellowColor;
+    }
+    .special-box{
+        text-align: right;
+        span{
+            padding: .3rem 1rem;
+            background-color: $yellowColor;
+            font-size: .8rem;
+            color:$whiteColor;
+            text-transform: capitalize;
+        }
+    }
+}
+
+//reviews section
+#reviews{
+    background:url(../../images/section-bg2.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#dde0df;
+    .reviews-box{
+        background-color: $darkerTransColor;
+    }
+    .guest-says{
+        font-family: $gentiumFont;
+        line-height: 2rem;
+        font-size: 1.2rem;
+        span{
+            font-size: 4rem;
+            color: #9b9c98;
+            font-family: $yesevaFont;
+            align-items: center;
+            margin-right:.7rem ;
+        }
+    }
+}
+
+//reservations section
+#reservations{
+    background:url(../../images/menu-bg.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    h3{
+        color:$yellowColor;
+    }
+    p{
+        color:$grayColor;
+    }
+    .book-table-form{
+        label{
+            color:$yellowColor;
+            font-family: $openSansFont;
+            font-weight: 700;
+        }
+    }
+}
+
+//footer 
+footer{
+    .footer-about{
+        font-family: $openSansFont;
+    }
+    img{
+        margin:.4rem 0 1rem;
+    }
+    .footer-icons{
+        margin-top:3rem;
+        & a{
+            color:$whiteColor;
+            margin-right: 1rem;
+        }
+    }
+
+}

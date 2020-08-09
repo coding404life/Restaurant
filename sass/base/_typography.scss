@@ -25,9 +25,16 @@ p{
 .divider-width{
     max-width:13rem
 }
-
 @include mediaQuery(576px){
     .display-1{
         font-size:8vmin;
     }
+}
+//cusotm font classes
+.open-sans{
+    font-family: $openSansFont;
+}
+.open-sans-bold{
+    font-family: $openSansFont;
+    font-weight: 700;
 }

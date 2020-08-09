@@ -12,12 +12,6 @@
     }
 }
 //crossbrowser mixin
-@mixin crossBrowser($property, $css) {
-    -webkit-#{$property} : $css;
-    -moz-#{$property} : $css;
-    -o-#{$property} : $css;
-    #{$property} : $css;
-}
 @mixin css3-prefix($property, $value) {
     -webkit-#{$property}: #{$value};
      -khtml-#{$property}: #{$value};
