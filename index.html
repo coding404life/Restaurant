@@ -11,6 +11,8 @@
     <!--bootstrap 4.5 CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!-- google fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Lato&family=Open+Sans:wght@300;700&family=Yeseva+One&display=swap"
@@ -25,13 +27,15 @@
     <nav class="navbar position-absolute navbar-expand-md py-4">
         <div class="container">
             <!-- logo -->
-            <a class="navbar-brand text-uppercase" href="#">lambda</a>
+            <a class="navbar-brand text-uppercase wow fadeIn" data-wow-duration="2s" data-wow-delay='.5s'
+                href="#">lambda</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fas fa-bars"></i></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse justify-content-end  wow fadeIn" data-wow-duration="2s"
+                data-wow-delay='.5s' id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="#hero-banner">Home</a>
                     <a class="nav-item nav-link" href="#about">about</a>
@@ -54,7 +58,7 @@
     <header id='hero-banner' class='pt-5'>
         <div class="container h-100">
             <div class="row  h-100 align-items-center text-center">
-                <div class="col py-4">
+                <div class="col py-4 wow fadeIn" data-wow-duration="1.5s" data-wow-delay='.5s'>
                     <h1 class='my-4 pt-5 display-1'>the right ingredients
                         <br> for the right food</h1>
                     <img class='mb-2' src="images/heroo-section-divider" alt="divider">
@@ -73,10 +77,12 @@
                 <div class="col-md-6">
                     <h3 class='pt-5'>Just the right food</h3>
                     <img class='mt-1 mb-4 divider-width' src="images/divider.png" alt="divider">
-                    <P class='mb-sm-4'>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps
+                    <P class='mb-sm-4  wow fadeIn' data-wow-duration="2s" data-wow-delay=' .5s'>If you’ve been
+                        to one of our restaurants, you’ve seen – and tasted – what keeps
                         our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda
                         cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</P>
-                    <img class='img-fluid person ml-5' src="images/person.png" alt="about-client">
+                    <img class='img-fluid person ml-5 wow fadeIn' data-wow-duration="1.5s" data-wow-delay=' .5s'
+                        src="images/person.png" alt="about-client">
                 </div>
                 <div class="col-md-6">
                     <img class='img-fluid' src="images/dish.png" alt="dish">
@@ -91,15 +97,17 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-6"></div>
-                <div class="ingre-box col-lg-6 py-sm-5 px-sm-4">
-                    <h3 class=mb-3>Fine ingredients</h3>
+                <div class="ingre-box col-lg-6 py-sm-5 px-sm-4 ">
+                    <h3 class="mb-3 wow fadeIn" data-wow-duration="1.5s" data-wow-delay='.5s'>Fine ingredients</h3>
                     <img src="images/footer-divider.png" alt="divider">
-                    <p class='mt-3 mb-sm-5 px-sm-5'>If you’ve been to one of our restaurants, you’ve seen – and tasted –
+                    <p class='mt-3 mb-sm-5 px-sm-5 wow fadeIn' data-wow-duration="1.5s" data-wow-delay=' 1s'>If you’ve
+                        been to one of our restaurants, you’ve seen – and tasted –
                         what keeps our customers coming back for more. Perfect materials and freshly baked food,
                         delicious Lambda cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and
                         check us out!
                     </p>
-                    <div class="row justify-content-center mb-3">
+                    <div class="row justify-content-center mb-3 wow fadeIn" data-wow-duration="1.5s"
+                        data-wow-delay='1.5s'>
                         <div class="col-3">
                             <img class='img-fluid' src="images/icon1.png" alt="icon1">
                         </div>
@@ -224,9 +232,10 @@
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="reviews-box col-12 col-lg-6 py-5 px-sm-4">
-                    <h3>Guest Reviews</h3>
+                    <h3 class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay='.5s'>Guest Reviews</h3>
                     <img class='mb-3' src="images/footer-divider.png" alt="">
-                    <p class="guest-says px-sm-2"><span class='float-left'>“</span>If you’ve been to one of our
+                    <p class="guest-says px-sm-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay='1s'><span
+                            class='float-left'>“</span>If you’ve been to one of our
                         restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect
                         materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet coffees make us
                         hard to resist! Stop in today and check us out!</p>
@@ -243,7 +252,7 @@
         <div class="container">
             <div class="row justify-content-between text-center align-items-center">
                 <div class="col-sm-6">
-                    <div class="row py-4">
+                    <div class="row py-4 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay='.5s'>
                         <div class="col-lg-5 col-6">
                             <img class='img-fluid' src="images/dish1.png" alt="food dish">
                         </div>
@@ -252,7 +261,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 ">
+                <div class="col-sm-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay='.5s'>
                     <h3>Just the right food</h3>
                     <img class='mb-4' src="images/divider.png" alt="divider">
                     <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers
@@ -301,14 +310,15 @@
     <footer class="bg-black text-white">
         <div class="container">
             <div class="row justify-content-between text-center py-5 ">
-                <div class="col-sm-4 mb-4">
+                <div class="col-sm-4 mb-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay='.5s'>
                     <h5>About us</h5>
                     <img class='img-fluid' src="images/footer-divider.png" alt="footer-divider">
                     <p class='footer-about'>Lambda's new and expanded Chelsea location represents a truly authentic
                         <strong>Greek</strong> patisserie, featuring breakfasts of fresh croissants and steaming bowls
                         of café.<br> Lamda the best restaurant in town</p>
                 </div>
-                <div class="col-sm-4 col-lg-3 mb-4 open-sans">
+                <div class="col-sm-4 col-lg-3 mb-4 open-sans wow fadeInUp" data-wow-duration="1.5s"
+                    data-wow-delay='.5s'>
                     <h5>Opening Hours</h5>
                     <img class='img-fluid' src="images/footer-divider.png" alt="footer-divider">
                     <p><span class='open-sans-bold'>Mon-Thu: </span>7:00am-8:00pm </p>
@@ -320,7 +330,7 @@
                         <a target='_blank'></a><i class="fab fa-cc-amex"></i></a>
                     </div>
                 </div>
-                <div class="col-sm-4 col-lg-3 ">
+                <div class="col-sm-4 col-lg-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay='.5s'>
                     <h5>Our Location</h5>
                     <img class='img-fluid' src="images/footer-divider.png" alt="footer-divider">
                     <p class='open-sans-bold'>19th Paradise Street Sitia</p>
@@ -347,6 +357,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous"></script>
     <!-- main script -->
     <script src="js/script.js"></script>
 </body>
