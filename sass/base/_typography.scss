@@ -1,40 +1,53 @@
 //body styls
 html {
     scroll-behavior: smooth;
-  }
-body{
+}
+
+body {
     font-family: $sans;
     font-weight: $light;
     transition: all ease-in-out 250ms;
 }
 
-h1, h2 ,h3, h4 ,h5 ,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: $yesevaFont;
 }
-p{
+
+p {
     font-family: $latoFont;
     font-weight: $regular;
 }
+
 //custom classes
-.bg-black{
-    background-color:$blackColor;
+.bg-black {
+    background-color: $blackColor;
 }
-.display-1{
-    font-size:9vmin;
+
+.display-1 {
+    font-size: 9vmin;
 }
-.divider-width{
-    max-width:13rem
+
+.divider-width {
+    max-width: 13rem
 }
-@include mediaQuery(576px){
-    .display-1{
-        font-size:8vmin;
+
+@include mediaQuery(576px) {
+    .display-1 {
+        font-size: 8vmin;
     }
 }
+
 //cusotm font classes
-.open-sans{
+.open-sans {
     font-family: $openSansFont;
 }
-.open-sans-bold{
+
+.open-sans-bold {
     font-family: $openSansFont;
     font-weight: 700;
 }

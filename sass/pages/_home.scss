@@ -1,137 +1,159 @@
 //header hero banner
-header{
-    background:url(../images/header.png) no-repeat top center;
+header {
+    background: url(../images/header.png) no-repeat top center;
     background-size: cover;
     // background-attachment: fixed;
-    color:$whiteColor;
-    height:85vh;
+    color: $whiteColor;
+    height: 85vh;
     z-index: 0;
-    @include css3-prefix(box-shadow,0 9em 9em -6em #0e0b0b inset);
-   img{
-       max-width: 11rem;
-   }
-   @include mediaQuery(576px){
-       &{
-           background-position: right center;
-           height:auto;
-       }
-   }
+    @include css3-prefix(box-shadow, 0 9em 9em -6em #0e0b0b inset);
+
+    img {
+        max-width: 11rem;
+    }
+
+    @include mediaQuery(576px) {
+        & {
+            background-position: right center;
+            height: auto;
+        }
+    }
 }
 
 // about section
-#about{
-    background:url(../images/menu-bg.png)no-repeat center ;
-    background-size:cover;
+#about {
+    background: url(../images/menu-bg.png)no-repeat center;
+    background-size: cover;
     background-attachment: fixed;
-    padding:3.5rem 0 2rem;
-    h3{
+    padding: 3.5rem 0 2rem;
+
+    h3 {
         font-family: $yesevaFont;
         color: $yellowColor;
     }
-    p{
-        color:$grayColor
+
+    p {
+        color: $grayColor
     }
-    .person{
-        max-width:11rem
+
+    .person {
+        max-width: 11rem
     }
-    @include mediaQuery(576px){
+
+    @include mediaQuery(576px) {
         & {
-            padding:0 0 2rem;
+            padding: 0 0 2rem;
         }
     }
-}   
+}
 
 //ingredients section
-#ingredients{
+#ingredients {
     background: url(../images/section-bg.png)no-repeat center;
     background-size: cover;
-    color:$whiteColor;
+    color: $whiteColor;
     background-attachment: fixed;
-    .ingre-box{
+
+    .ingre-box {
         background-color: $transColor;
-        padding: 1.5rem ;
+        padding: 1.5rem;
     }
 }
 
 // menu items
-#menu{
-    background:url(../images/menu-bg.png) no-repeat center;
+#menu {
+    background: url(../images/menu-bg.png) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    .menu-group{
+
+    .menu-group {
         margin-bottom: 3rem;
-        h3{
-            color:$yellowColor;
+
+        h3 {
+            color: $yellowColor;
             text-transform: capitalize;
         }
     }
-    .menu-item{
+
+    .menu-item {
         text-align: left;
-        padding:.7rem .5rem;
+        padding: .7rem .5rem;
         margin-bottom: .5rem;
-        hr{
-            background-color:$yellowColor
+
+        hr {
+            background-color: $yellowColor
         }
-        .food-name{
-            color:$yellowColor;
+
+        .food-name {
+            color: $yellowColor;
             font-family: $yesevaFont;
         }
+
         p {
             margin-bottom: .5rem;
         }
     }
-    .special{
-        border:1px solid $yellowColor;
+
+    .special {
+        border: 1px solid $yellowColor;
     }
-    .special-box{
+
+    .special-box {
         text-align: right;
-        span{
+
+        span {
             padding: .3rem 1rem;
             background-color: $yellowColor;
             font-size: .8rem;
-            color:$whiteColor;
+            color: $whiteColor;
             text-transform: capitalize;
         }
     }
 }
 
 //reviews section
-#reviews{
-    background:url(../images/section-bg2.png) no-repeat center;
+#reviews {
+    background: url(../images/section-bg2.png) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    color:#dde0df;
-    .reviews-box{
+    color: #dde0df;
+
+    .reviews-box {
         background-color: $darkerTransColor;
     }
-    .guest-says{
+
+    .guest-says {
         font-family: $gentiumFont;
         line-height: 2rem;
         font-size: 1.2rem;
-        span{
+
+        span {
             font-size: 4rem;
             color: #9b9c98;
             font-family: $yesevaFont;
             align-items: center;
-            margin-right:.7rem ;
+            margin-right: .7rem;
         }
     }
 }
 
 //reservations section
-#reservations{
-    background:url(../images/menu-bg.png) no-repeat center;
+#reservations {
+    background: url(../images/menu-bg.png) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    h3{
-        color:$yellowColor;
+
+    h3 {
+        color: $yellowColor;
     }
-    p{
-        color:$grayColor;
+
+    p {
+        color: $grayColor;
     }
-    .book-table-form{
-        label{
-            color:$yellowColor;
+
+    .book-table-form {
+        label {
+            color: $yellowColor;
             font-family: $openSansFont;
             font-weight: 700;
         }
@@ -139,17 +161,20 @@ header{
 }
 
 //footer 
-footer{
-    .footer-about{
+footer {
+    .footer-about {
         font-family: $openSansFont;
     }
-    img{
-        margin:.4rem 0 1rem;
+
+    img {
+        margin: .4rem 0 1rem;
     }
-    .footer-icons{
-        margin-top:3rem;
-        & a{
-            color:$whiteColor;
+
+    .footer-icons {
+        margin-top: 3rem;
+
+        & a {
+            color: $whiteColor;
             margin-right: 1rem;
         }
     }
